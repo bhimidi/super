@@ -1,0 +1,23 @@
+
+def name():
+ n = int(input('enter your first value'))
+ num = int(input('enter your second value'))
+ s = n+num
+ print(s)
+
+ if s >10:
+    print("s is greater")
+
+ else:
+    print("s is not greater")
+ return
+def test():
+ nu = float(input('okati'))
+ un= float(input('roundu'))
+ m = nu+6
+ r =m+nu+un
+ print("the first {} \t the second {} \t the third {}".format(nu,un,m))
+
+
+
+test()
